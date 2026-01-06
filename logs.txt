@@ -1,0 +1,6 @@
+[INFO] Server işə düşdü.
+[ERROR] Verilənlər bazasına qoşulma xətası!
+[INFO] İstifadəçi daxil oldu: Admin.
+[WARNING] Yaddaş dolmaq üzrədir.
+[ERROR] Kritik təhlükəsizlik boşluğu tapıldı.
+[INFO] Sorğu uğurla tamamlandı.
