@@ -1,3 +1,4 @@
+package Theory_lessons_13;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -34,20 +35,20 @@ public class ErrorLogger {
 
                     String timestamp = LocalDateTime.now().format(formatter);
 
-                    // ⬇⬇⬇ ВАЖНО: ЭТО ВНУТРИ IF
+
                     writer.write(errorCount + ") " + line + " | " + timestamp);
                     writer.newLine();
                 }
             }
 
-            // ⬇⬇⬇ А ЭТО УЖЕ ПОСЛЕ ЦИКЛА
+
             writer.newLine();
             writer.write(errorCount + " sayda səhv tapıldı");
             writer.newLine();
 
             System.out.println(
                     "Hazırdır! " + errorCount + " sayda səhv critical_errors.txt faylına yazıldı.");
-
+        // Exception vs IOException
         } catch (IOException e) {
             System.out.println("Fayllarla işdə səhv: " + e.getMessage());
             e.printStackTrace();

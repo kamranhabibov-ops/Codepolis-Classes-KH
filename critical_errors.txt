@@ -1,0 +1,4 @@
+1) [ERROR] Verilənlər bazasına qoşulma xətası! | 2026-01-06 19:36:21
+2) [ERROR] Kritik təhlükəsizlik boşluğu tapıldı. | 2026-01-06 19:36:21
+
+2 sayda səhv tapıldı
